@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Perfil</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="links">
+                <h1 class="title">Profile</h1>
+                <ul class="navigationMenu">
+                    <li class="navLink"><a href="#">Home</a></li>
+                    <li class="navLink">
+                        <a href="#" class="active">My Profile</a>
+                    </li>
+                    <li class="navLink"><a href="#">Find Connections</a></li>
+                </ul>
+            </div>
+            <button class="logout">Sign Out</button>
+        </div>
+        <div class="content">
+            <div class="information">
+                <div class="personal">
+                    <div class="banner"></div>
+                    <div class="profile">
+                        <img
+                            src="./assets/images/jane-m.jpg"
+                            alt="Jane profile picture"
+                            class="profilePicture"
+                        />
+                        <div class="profileContent">
+                            <h1 class="name" id="name">Jane Doe</h1>
+                            <div class="location">
+                                <img
+                                    src="./assets/icons/map-marker.png"
+                                    alt="marcador de mapa"
+                                />
+                                <h2>Seattle</h2>
+                            </div>
+                            <p class="description">
+                                Developer | Engineer | Problem Solver Master of
+                                shadows and the internet!
+                            </p>
+                            <a href="#" class="editProfile" onclick="changeName()"
+                                ><img
+                                    src="./assets/icons/gear.png"
+                                    alt="icono de mecanismo"
+                                />edit profile</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="banner">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="educationInfo">
+                        <h2 class="course">
+                            Coding Dojo - Full Stack Bootcamp
+                        </h2>
+                        <h3 class="period">Dec 2019 - Mar 2020</h3>
+                        <p class="description">
+                            Triple black belt in Python, MERN, and C#...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="requests">
+                    <div class="banner">
+                        <h3 class="requestsCount" id="requestsCount">2</h3>
+                        <h3>Connection Requests</h3>
+                    </div>
+                    <div class="content">
+                        <div class="request" id="req-1">
+                            <img
+                                src="./assets/images/todd-s.jpg"
+                                alt="todd profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Todd E</h3>
+                            <button class="accept-btn" onclick="accept(this)">
+                                <img
+                                    src="./assets/icons/accept-circle.png"
+                                    alt="accept circle"
+                                    class="accept"
+                                />
+                            </button>
+                            <button class="deny-btn" onclick="deny(this)">
+                                <img
+                                    src="./assets/icons/close-circle.png"
+                                    alt="close circle"
+                                    class="deny"
+                                />
+                            </button>
+                        </div>
+                        <div class="request" id="req-2">
+                            <img
+                                src="./assets/images/phil-s.jpg"
+                                alt="phil profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Phil K</h3>
+                            <button class="accept-btn" onclick="accept(this)">
+                                <img
+                                    src="./assets/icons/accept-circle.png"
+                                    alt="accept circle"
+                                    class="accept"
+                                />
+                            </button>
+                            <button class="deny-btn" onclick="deny(this)">
+                                <img
+                                    src="./assets/icons/close-circle.png"
+                                    alt="close circle"
+                                    class="deny"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="myConnections">
+                    <div class="banner">
+                        <h3 class="connectionsCount" id="connectionsCount">418</h3>
+                        <h3>Your Connections</h3>
+                    </div>
+                    <div class="content">
+                        <div class="connection">
+                            <img
+                                src="./assets/images/adrien-s.jpg"
+                                alt="Adrien profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Adrien D</h3>
+                        </div>
+                        <div class="connection">
+                            <img
+                                src="./assets/images/anne-s.jpg"
+                                alt="Anne profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Anne J</h3>
+                        </div>
+                        <div class="connection">
+                            <img
+                                src="./assets/images/alayne-s.jpg"
+                                alt="Alayne profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Alayne T</h3>
+                        </div>
+                        <div class="connection">
+                            <img
+                                src="./assets/images/arry-s.jpg"
+                                alt="todd profile picture"
+                                class="profilePicture2"
+                            />
+                            <h3>Arry Y</h3>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: black;
+    height: 60px;
+    margin-bottom: 30px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+.title {
+    margin-right: 10px;
+    color: white;
+}
+li {
+    display: inline;
+    list-style: none;
+    margin-inline: 10px;
+}
+li a {
+    color: #999;
+    text-decoration: none;
+}
+li > .active {
+    color: white;
+}
+.logout {
+    height: 50%;
+    width: 20%;
+    background-color: #17a2b8;
+    border: 2px solid black;
+    color: white;
+}
+.content {
+    display: flex;
+}
+.information {
+    flex: 2;
+    margin: 20px;
+}
+.personal {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+.personal > .banner {
+    height: 90px;
+    background-color: #17a2b8;
+}
+.profilePicture {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    left: 25px;
+    border-radius: 50%;
+}
+.profileContent {
+    position: relative;
+    top: -65px;
+    margin: 20px;
+}
+.name {
+    margin-bottom: 5px;
+}
+.location {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.location > img {
+    width: 13px;
+    margin-right: 5px;
+}
+.description {
+    margin-bottom: 5px;
+}
+.editProfile {
+    display: flex;
+    align-items: center;
+}
+.editProfile > img {
+    width: 13px;
+    margin-right: 5px;
+}
+.education {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+.education > .banner {
+    background-color: #333333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    color: white;
+}
+.educationInfo {
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+.educationInfo > .course {
+    margin-bottom: 5px;
+}
+.educationInfo > .period {
+    margin-bottom: 5px;
+    color: #999;
+    font-weight: 100;
+}
+.educationInfo > .info {
+    margin-bottom: 5px;
+}
+.connections {
+    flex: 1;
+    margin: 20px;
+}
+.requests {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+.requests > .banner {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.requests > .banner > .requestsCount {
+    color: black;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    padding-inline: 3%;
+    padding-block: 1%;
+}
+.requests > .content {
+    display: block;
+}
+.requests > .content > .request {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.requests > .content > .request > .profilePicture2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.requests > .content > .request > h3{
+    flex: 3;
+    text-align: center;
+    cursor: pointer;
+}
+.accept-btn {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    margin-inline: 10px;
+    background-color: white;
+}
+.accept-btn > .accept{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.deny-btn {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    margin-inline: 10px;
+    background-color: white;
+}
+.deny-btn > .deny{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.myConnections {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+.myConnections > .banner {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.myConnections > .banner > .connectionsCount {
+    color: black;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    padding-inline: 3%;
+    padding-block: 1%;
+}
+.myConnections > .content {
+    display: block;
+}
+.myConnections > .content > .connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.myConnections > .content > .connection > .profilePicture2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.myConnections > .content > .connection > h3{
+    flex: 3;
+    text-align: center;
+    cursor: pointer;
+}
+.myConnections > .footer {
+    border-top: 1px solid #aaa;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+}
